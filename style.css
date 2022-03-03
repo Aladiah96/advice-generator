@@ -1,0 +1,14 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  background-color: #1f2632;
+  font-size: 28px;
+  font-family: 'Manrope', sans-serif;
+  color: #cee3e9;
+}
+
+body .advcard {
+  background-color: #4e5d73;
+}
+/*# sourceMappingURL=style.css.map */
