@@ -6,9 +6,105 @@ body {
   font-size: 28px;
   font-family: 'Manrope', sans-serif;
   color: #cee3e9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body .advcard {
   background-color: #4e5d73;
+  width: 500px;
+  height: 30%;
+  padding: 2rem;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+body .advcard .advcard-title {
+  color: #52ffa8;
+  font-size: .5em;
+  margin-top: -12.5em;
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+body .advcard .advcard-text {
+  text-align: center;
+  position: static;
+  max-width: 90%;
+  margin-top: 1rem;
+  line-height: 1.1;
+}
+
+body .advcard .btn-bg {
+  background-color: #52ffa8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: -50rem;
+  width: 3rem;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  cursor: pointer;
+  position: absolute;
+  margin-bottom: -17rem;
+}
+
+body .advcard .divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+}
+
+body .advcard .divider .line {
+  width: 112px;
+  height: 47px;
+  border-bottom: 1px solid black;
+}
+
+body .advcard .divider .pattern {
+  margin-bottom: -5.5em;
 }
 /*# sourceMappingURL=style.css.map */
