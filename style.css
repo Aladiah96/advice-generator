@@ -23,7 +23,7 @@ body {
 }
 
 body .advcard {
-  background-color: #4e5d73;
+  background-color: #323a49;
   width: 500px;
   height: 30%;
   padding: 2rem;
@@ -57,7 +57,6 @@ body .advcard .advcard-text {
   text-align: center;
   position: static;
   max-width: 90%;
-  margin-top: 1rem;
   line-height: 1.1;
 }
 
@@ -81,6 +80,16 @@ body .advcard .btn-bg {
   margin-bottom: -17rem;
 }
 
+body .advcard .btn-bg:hover {
+  -webkit-box-shadow: 0 5px 15px #52ffa8;
+          box-shadow: 0 5px 15px #52ffa8;
+  opacity: 1;
+  -webkit-transition: -webkit-box-shadow 0.1s ease-in;
+  transition: -webkit-box-shadow 0.1s ease-in;
+  transition: box-shadow 0.1s ease-in;
+  transition: box-shadow 0.1s ease-in, -webkit-box-shadow 0.1s ease-in;
+}
+
 body .advcard .divider {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,13 +107,7 @@ body .advcard .divider {
   position: absolute;
 }
 
-body .advcard .divider .line {
-  width: 112px;
-  height: 47px;
-  border-bottom: 1px solid black;
-}
-
 body .advcard .divider .pattern {
-  margin-bottom: -5.5em;
+  margin: 0 -7.2em -5.5em -7.2em;
 }
 /*# sourceMappingURL=style.css.map */
